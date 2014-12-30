@@ -14,6 +14,9 @@ Features/fixes to be added:
          *add Facebook account ui 
          *make sure user is logged in in order to vote on shit
 
+Live demo version onlin at:
+        http://joker.meteor.com/
+
 
 To get working on your iOS device type: 
 
