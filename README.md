@@ -15,4 +15,8 @@ Features/fixes to be added:
           make sure user is logged in in order to vote on shit
 
 
-<3 <3
+To get working on your iOS device type: 
+
+meteor install-sdk ios
+meteor add-platform ios
+meteor run ios
