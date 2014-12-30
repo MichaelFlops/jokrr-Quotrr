@@ -1,0 +1,40 @@
+<head>
+  <title> Franz's Liszts </title>
+</head>
+
+<body>
+  <div class = "container">
+    <header>
+      <!-- <button class="btn btn-raised btn-info">{{> loginButtons}}</button> -->
+
+      <p class="text-center lead">  Jokrr <p class="text-center"> {{> loginButtons}}</p> </p>
+      <h5>"{{incompleteCount}}" jokes approved. The tribe has spoken. </h5>
+<!--       <label class= "hide-completed">
+        <input type="checkbox" checked="{{hideCompleted}}" />
+        hide bad jokes
+      </label> -->
+      {{#if currentUser}}
+      <form class = "new-task">
+        <input type="text" name="text" placeholder="Type to add new tasks" />
+      </form>
+      {{/if}}
+    </header>
+
+    <ul>
+      {{#each tasks}}
+        {{> task}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<template name ="task">
+  <li class="{{#if checked}}checked{{/if}} active">
+  <button class="delete">&times;</button>
+
+  <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
+
+  <span class="text">"<i>{{text}}</i>"<small> -{{username}}</small></span>
+  </li>
+</template>
+
