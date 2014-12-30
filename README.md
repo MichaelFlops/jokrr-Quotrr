@@ -9,16 +9,16 @@ make jokr for iOS ( an app where friends can make joke lists together )
 Features/fixes to be added:
 
 
- *add userID to people that like or dislike a joke
- *make each joke a different alert color (or alternate between 2 colors)
- *add Facebook account ui 
- *make sure user is logged in in order to vote on shit
+         *add userID to people that like or dislike a joke
+         *make each joke a different alert color (or alternate between 2 colors)
+         *add Facebook account ui 
+         *make sure user is logged in in order to vote on shit
 
 
 To get working on your iOS device type: 
 
          
-          install-sdk ios
+           install-sdk ios
            meteor add-platform ios
            meteor run ios
 
@@ -32,7 +32,7 @@ Running on an Android emulator
 
 In the terminal, go to your app folder and type:
 
-           meteor install-sdk android
+
            meteor install-sdk android
 This will help you install all of the necessary tools to build an Android app from your project. When you are done installing everything, type:
 
