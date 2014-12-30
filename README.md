@@ -34,6 +34,7 @@ Running on an Android emulator
 In the terminal, go to your app folder and type:
 
 meteor install-sdk android
+meteor install-sdk android
 This will help you install all of the necessary tools to build an Android app from your project. When you are done installing everything, type:
 
 meteor add-platform android
