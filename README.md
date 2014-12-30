@@ -14,7 +14,7 @@ Features/fixes to be added:
          *add Facebook account ui 
          *make sure user is logged in in order to vote on shit
 
-Live demo version onlin at:
+Live demo version online at:
         http://joker.meteor.com/
 
 
